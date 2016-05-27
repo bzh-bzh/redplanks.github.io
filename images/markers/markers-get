@@ -1,0 +1,5 @@
+#!/bin/bash
+for i in {1..100}
+do
+curl https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_red$i.png > marker_red$i.png
+done  
